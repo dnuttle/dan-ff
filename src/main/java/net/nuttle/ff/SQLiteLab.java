@@ -44,6 +44,10 @@ public class SQLiteLab {
     return false;
   }
   
+  public static void scheduleFeeding(int hours, int mins, Integer...days) {
+    
+  }
+  
   public static void createTable(Connection c) {
     Statement stmt = null;
     try {
